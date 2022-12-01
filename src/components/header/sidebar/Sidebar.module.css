@@ -1,0 +1,49 @@
+.sidebar__signIn {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    padding-left: 40px;
+}
+.sidebar__loginIcon {
+    font-size: 26px;
+    margin-right: 9px;
+}
+.sidebar__wrapper {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #9a9999;
+}
+.sidebar__list{
+    padding: 25px;
+    padding-left: 40px;
+    flex-grow: 1;
+}
+.sidebar__title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sidebar__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px 5px;
+}
+.sidebar__text:hover {
+    background-color: #eaeded;
+}
+.sidebar__closeBtn{
+    position: absolute;
+    cursor: pointer;
+    top: 80px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+}

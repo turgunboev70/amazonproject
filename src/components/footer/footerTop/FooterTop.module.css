@@ -1,0 +1,32 @@
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232f3e;
+    height: 500px;
+}
+.footer__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.footer__category {
+    list-style-type: none;
+}
+.footer__line{
+    color: #ddd0c3;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.footer__line:first-child {
+    font-size: 17px;
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+}
+.footer__line:hover {
+    text-decoration: underline;
+}
+.footer__line:first-child:hover{
+    text-decoration: none;
+}

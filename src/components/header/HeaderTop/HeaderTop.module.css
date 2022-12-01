@@ -1,0 +1,242 @@
+.header {
+    max-width: 100%;
+    padding: 0 10px;
+    height: 60px;
+    background-color: #000;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.brand__logo__box {
+    border: 1px solid transparent;
+}
+.brand__logo {
+    width: 125px;
+    padding: 2px;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.brand__logo__box:hover {
+    border: 1px solid #fff;
+}
+
+.user__location {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    border: 1px solid transparent;
+
+}
+
+.location__text {
+    color: rgb(144, 142, 142);
+}
+
+.user__location:hover {
+    border: 1px solid #fff;
+}
+
+.location__icon {
+    font-size: 19px;
+    color: #fff;
+}
+
+.location__state {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input__wrapper {
+    cursor: pointer;
+    width: 850px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.input__form {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+}
+
+.input__select {
+    cursor: pointer;
+    width: 60px;
+    outline: none;
+    background-color: #f0f0f0;
+    border: none;
+    border-right: 1px solid rgb(151, 151, 238);
+}
+
+.input__field {
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.search__btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: auto;
+    background-color: #febd69;
+}
+
+.serach__icon {
+    font-size: 23px;
+}
+.language__section {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent; 
+    position: relative;
+} 
+.language__select {
+    display: flex;
+    align-items: center;
+}
+.language__list {
+    border-bottom: 0.5px solid gray;
+}
+.languages__wrapper {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 240px;
+    padding: 10px;
+    height: auto;
+    background-color: #fff;
+    color: #000;
+    z-index: 10000;
+}
+.languages__active {
+    display: block;
+}
+.language__select {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+    cursor: pointer;
+}
+.language__select > option {
+    color: #000;
+}
+.language__section:hover {
+    border: 1px solid #fff
+}
+.language__sort {
+    padding: 5px;
+}
+.language__sort:hover {
+    text-decoration: underline;
+    color: #f78921;
+}
+.language__sort:first-child {
+    padding: 8px 5px;
+    border-bottom: 1px solid gray;
+}
+.sign__in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.sign__inLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.sign__in:hover {
+    border: 1px solid #fff;
+}
+.signing__select{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+.anonym__box{
+    width: 70px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.anonym__box:hover {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+.anonym__text{
+    font-weight: 600;
+}
+.cart {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.cart:hover {
+    border: 1px solid #fff;
+}
+.cart__icon {
+    font-size: 30px;
+    color: #fff;
+}
+.cart__num {
+    position: absolute;
+    top: 0;
+    left: 35px;
+    padding: 2px 5px;
+    background-color: #febd69;
+    font-size: 14px;
+    border-radius: 50%;
+}
+.cart__text{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+

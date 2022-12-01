@@ -1,0 +1,104 @@
+[
+    {
+        "title" : "Department",
+        "type" : "link", 
+        "list" : [
+            {
+                "text" : "Accessories & Supplies"
+            },
+            {
+                "text" : " Camera & Photo"
+            },
+            {
+                "text" : "Car & Vehicle Electronics"
+            },
+            {
+                "text" : "Cell Phones & Accessories"
+            },
+            {
+                "text" : "GPS, Finders & Accessories"
+            },
+            {
+                "text" : "Home Audio"
+            },
+            {
+                "text" : "Office Electronics"
+            },
+            {
+                "text" : "Portable Audio & Video"
+            },
+            {
+                "text" : "Security & Surveillance"
+            },
+            {
+                "text" : "Television & Video"
+            },
+            {
+                "text" : "Video Game Consoles & Accessories"
+            },
+            {
+                "text" : "Video Projectors"
+            },
+            {
+                "text" : "Wearable Technology"
+            },
+            {
+                "text" : "eBook Readers & Accessories"
+            },
+            {
+                "text" : "Headphones, Earbuds & Accessories"
+            },
+            {
+                "text" : "Household Batteries, Chargers & Accessories"
+            },
+            {
+                "text" : "Power Accessories"
+            },
+            {
+                "text" : "Tablets"
+            }
+        ]
+    },
+    {
+        "title" : "Climate Pledge Friendly",
+        "type" : "checkbox", 
+        "list" : [
+            {
+                "text" : "Climate Pledge Friendly"
+            }
+        ]
+    },
+    {
+        "title" : "Payment Plan",
+        "type" : "checkbox", 
+        "list" : [
+            {
+                "text" : "Layaway Eligible"
+            }
+        ]
+    },
+    {
+        "title" : "Amazon Certified",
+        "type" : "checkbox", 
+        "list" : [
+            {
+                "text" : "Auto Replenishment"
+            },
+            {
+                "text" : "Works with Alexa"
+            }
+        ]
+    },
+    {
+        "title" : "From Our Brands",
+        "type" : "checkbox", 
+        "list" : [
+            {
+                "text" : "Amazon Brands"
+            },
+            {
+                "text" : "Amazon Exclusive"
+            }
+        ]
+    }
+]

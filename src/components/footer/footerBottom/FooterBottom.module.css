@@ -1,0 +1,32 @@
+.footerBottom__wrapper {
+    width: 100%;
+    background-color: #131a22;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerBottom__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.footerBottom__list > a {
+    color: #fff;
+} 
+.footerBottom__list > a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.footerBottom__list {
+    width: 89px;
+}
+.footerBottom__item {
+    font-size: 11px;
+    height: 59px;
+    margin-top: 10px;
+    
+}
+.footerBottom__item > span {
+    color: #999;
+}

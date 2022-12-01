@@ -1,0 +1,156 @@
+[
+    {
+        "title": "Digital Content & Devices",
+        "section": [
+            {
+                "text": "Amazon Music"
+            },
+            {
+                "text": "Kindle E-readers & Books"
+            },
+            {
+                "text": "Amazon Appstore"
+            }
+        ],
+        "menu" : [
+            {
+                "innerText" : "Stream Music"
+            },
+            {
+                "innerText" : "Amazon Music Unlimited"
+            },
+            {
+                "innerText" : "Free Streaming Music"
+            },
+            {
+                "innerText" : "Podcasts"
+            },
+            {
+                "innerText" : "Play Music"
+            },
+            {
+                "innerText" : "Open Web Player"
+            },
+            {
+                "innerText" : "Download the App"
+            }
+        ]
+    },
+    {
+        "title": "Shop By Department",
+        "section": [
+            {
+                "text": "Electronics"
+            },
+            {
+                "text": "Computer"
+            },
+            {
+                "text": "Smart Home"
+            },
+            {
+                "text": "Arts & Crafts"
+            }
+        ],
+        "menu" : [
+            {
+                "innerText" : "Kindle E-Readers"
+            },
+            {
+                "innerText" : "All-new Kindle Kids"
+            },
+            {
+                "innerText" : "All-new Kindle"
+            },
+            {
+                "innerText" : "Kindle Paperwhite"
+            },
+            {
+                "innerText" : "Kindle Oasis"
+            },
+            {
+                "innerText" : "Introducing Kindle Scribe"
+            },
+            {
+                "innerText" : "Download the App"
+            }
+        ]
+    },
+    {
+        "title": "Programs & Features",
+        "section": [
+            {
+                "text": "Gift  Cards"
+            },
+            {
+                "text": "#FoundItOnAmazon"
+            },
+            {
+                "text": "Amazon Live"
+            },
+            {
+                "text": "International Shopping"
+            }
+        ],
+        "menu" : [
+            {
+                "innerText" : "Give A Gift Card"
+            },
+            {
+                "innerText" : "All Gifts Cards"
+            },
+            {
+                "innerText" : "eGift cards by mail"
+            },
+            {
+                "innerText" : "Specialty gift cards"
+            },
+            {
+                "innerText" : "Amazon Cash"
+            },
+            {
+                "innerText" : "For Businesses"
+            }
+        ]
+    },
+    {
+        "title": "Help & Settings",
+        "section": [
+            {
+                "text": "Your Account"
+            },
+            {
+                "text": "English"
+            },
+            {
+                "text": "United States"
+            },
+            {
+                "text": "Customer Service"
+            },
+            {
+                "text": "Sign in"
+            }
+        ],
+        "menu" : [
+            {
+                "innerText" : "Give A Gift Card"
+            },
+            {
+                "innerText" : "All Gifts Cards"
+            },
+            {
+                "innerText" : "eGift cards by mail"
+            },
+            {
+                "innerText" : "Specialty gift cards"
+            },
+            {
+                "innerText" : "Amazon Cash"
+            },
+            {
+                "innerText" : "For Businesses"
+            }
+        ]
+    }
+]

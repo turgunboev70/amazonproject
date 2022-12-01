@@ -1,0 +1,36 @@
+.gifts__wrapper {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+}
+.gifts__title {
+    margin-bottom: 20px;
+}
+.products__list {
+    width: 1420px;
+    display: flex;
+    list-style: none;
+    overflow: auto;
+}
+.slider__btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 90px;
+    font-size: 30px;
+    color: #9a9a9a;
+    background-color: transparent;
+    border: 1px solid #f0f0f0;
+    backdrop-filter: blur(1px);
+}
+.slider__btn:active {
+    background-color: #fff;
+}
+.slider__btn[data-btn-type="left"]{
+    left: 0;
+}
+.slider__btn[data-btn-type="right"]{
+    right: 0;
+}

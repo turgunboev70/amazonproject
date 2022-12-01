@@ -1,0 +1,32 @@
+.slider__wrapper {
+    position: relative;
+}
+.images__wrapper{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.slider__image {
+    width: 100%;
+}
+
+.slider__btn{
+    height: 240px;
+    width: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 120px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+}
+.slider__btn:active {
+    border: 3px solid rgb(163, 166, 228);
+}
+.slider__btn[data-btn-type="left"]{
+    left: 0;
+}
+.slider__btn[data-btn-type="right"]{
+    right: 0;
+}

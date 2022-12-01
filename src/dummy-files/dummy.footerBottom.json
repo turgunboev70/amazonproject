@@ -1,0 +1,144 @@
+[
+    [
+        {
+            "link": "Amazon Music",
+            "text" : "Stream millions of songs"
+        },
+        {
+            "link": "Amazon Business",
+            "text" : "Everything ForYour Business"
+        },
+        {
+            "link": "Box Office Mojo",
+            "text" : "Find MovieBox Office Data"
+        },
+        {
+            "link": "Kindle Direct Publishing",
+            "text" : "Indie Digital & Print Publishing Made Easy"
+        }
+    ],
+    [
+        {
+            "link": "Amazon Advertising",
+            "text" : "Find, attract, and engage customers"
+        },
+        {
+            "link": "AmazonGlobal",
+            "text" : "Ship Orders Internationally"
+        },
+        {
+            "link": "ComiXology",
+            "text" : "Thousands of Digital Comics"
+        },
+        {
+            "link": "Prime Video Direct",
+            "text" : "Video Distribution Made Easy"
+        },
+        {
+            "link": "Blink",
+            "text" : "Smart Security for Every Home"
+        }
+    ],
+    [
+        {
+            "link": "Amazon Drive", 
+            "text" : "Cloud storage from Amazon"
+        },
+        {
+            "link": "Home Services",
+            "text" : "Experienced Pros Happiness Guarantee"
+        },
+        {
+            "link": "DPReview",
+            "text" : "Digital Photography"
+        },
+        {
+            "link": "Shopbop",
+            "text" : "Designer Fashion Brands"
+        },
+        {
+            "link": "Neighbors App",
+            "text" : "Real-Time Crime & Safety Alerts"
+        }
+    ],
+    [
+        {
+            "link": "6pm", 
+            "text" : "Score deals on fashion brands"
+        },
+        {
+            "link": "Amazon Ignite",
+            "text" : "Sell your original Digital Educational Resources"
+        },
+        {
+            "link": "Fabric",
+            "text" : "Sewing, Quilting & Knitting"
+        },
+        {
+            "link": "Woot!",
+            "text" : "Deals and Shenanigans"
+        },
+        {
+            "link": "Amazon Subscription Boxes",
+            "text" : "Top subscription boxes - right to your door"
+        }
+    ],
+    [
+        {
+            "link": "AbeBooks",
+            "text" : "Books, art & collectibles"
+        },
+        {
+            "link": "Amazon Web Services",
+            "text" : "Scalable Cloud Computing Services"
+        },
+        {
+            "link": "Goodreads",
+            "text" : "Book reviews & recommendations"
+        },
+        {
+            "link": "Zappos",
+            "text" : "Shoes & Clothing"
+        },
+        {
+            "link": "PillPack",
+            "text" : "Pharmacy Simplified"
+        }
+    ],
+    [
+        {
+            "link": "ACX",
+            "text" : "Audiobook Publishing Made Easy"
+        },
+        {
+            "link": "Audible",
+            "text" : "Listen to Books & Original Audio Performances"
+        },
+        {
+            "link": "IMDb",
+            "text" : "Movies, TV & Celebrities"
+        },
+        {
+            "link": "Ring",
+            "text" : "Smart Home Security Systems"
+        }
+    ],
+    [
+        {
+            "link": "Sell on Amazon",
+            "text" : "Start a Selling Account"
+        },
+        {
+            "link": "Book Depository",
+            "text" : "Books With Free Delivery Worldwide"
+        },
+        {
+            "link": "IMDbPro",
+            "text" : "Get Info Entertainment Professionals Need"
+        },
+        {
+            "link": "eero WiFi",
+            "text" : "Stream 4K Video in Every Room"
+        }
+    ]
+]

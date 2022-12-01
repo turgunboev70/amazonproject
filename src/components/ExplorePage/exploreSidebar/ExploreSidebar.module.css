@@ -1,0 +1,21 @@
+.exploreSidebar__box {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+}
+.exploreSidebar__text {
+    font-size: 16px;
+    margin: 10px 0px;
+    margin-left: 5px;
+}
+.exploreSidebar__item {
+    padding: 5px;
+}
+.exploreSidebar__link {
+    cursor: pointer;
+    color: #000;
+    font-size: 13px;
+}
+.exploreSidebar__link:hover {
+    color: rgb(238, 189, 43);
+}

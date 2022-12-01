@@ -1,0 +1,29 @@
+.backtotop__wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: #3e4b5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.backtotop__wrapper:hover {
+    background-color: #586371;
+}
+
+.backtotop__text {
+    color: #fff;
+}
+
+.overlay {
+    max-width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: #0000008a;
+}
