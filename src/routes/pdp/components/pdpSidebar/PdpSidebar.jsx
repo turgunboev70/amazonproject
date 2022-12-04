@@ -15,8 +15,6 @@ const PdpSidebar = ({ productCategory }) => {
 
   mainData?.filter(product => product.productCategory === productCategory ? renderingData.push(product) : null)
 
-  console.log(renderingData);
-
   return (
     <div className='container'>
       <div className={c.sidebar__wrapper}>

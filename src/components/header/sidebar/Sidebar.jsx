@@ -41,7 +41,7 @@ const Sidebar = ({ isSidebarActive, setIsSidebarActive }) => {
         )}
       </div>
       <button className={c.sidebar__closeBtn} onClick={() => { setIsSidebarActive(false) }}><RiCloseFill></RiCloseFill></button>
-      {secondPageSidebar && isSidebarActive && <Overlay type="sidebar" state={secondPageSidebar} callback={setSecondPageSidebar}/>}
+      {/* {secondPageSidebar && isSidebarActive && <Overlay type="sidebar" state={secondPageSidebar} callback={setSecondPageSidebar}/>} */}
     </div>
   )
 }

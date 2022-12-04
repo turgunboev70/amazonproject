@@ -1,8 +1,24 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom"
 import c from "./PdpImagebar.module.css"
 import { RiStarFill } from "react-icons/ri"
 import { SlLocationPin } from "react-icons/sl"
+import { useDispatch } from 'react-redux'
+
+
 const PdpImagebar = ({ productImage, productData }) => {
+    const dispatch = useDispatch()
+    const [checkCart, setCheckCart] = useState(false)
+
+    function sendProduct() {
+        const action = {
+            type: "ADD_TO_CART",
+            data: productData
+        }
+        setCheckCart(true)
+
+        dispatch(action)
+    }
 
     const [activeImageIndex, setActiveImageIndex] = useState(0)
 
@@ -30,11 +46,11 @@ const PdpImagebar = ({ productImage, productData }) => {
                     </article>
                     <div className={c.pdp__productDetails}>
                         <div className={c.pdp__sailedInfo}>
-                        {productData !== null && new Array(Math.floor(productData.ratings))?.fill("*").map((star, index) =>
-                            <RiStarFill key={index}  className={c.pdp__ratingStar}/>
-                        )}
-                        <p className={c.pdp__ratingsCount}>{productData?.sale} sailed</p>
-                        <p className={c.pdp__ratingsCount}>614 answered questions</p>
+                            {productData !== null && new Array(Math.floor(productData.ratings))?.fill("*").map((star, index) =>
+                                <RiStarFill key={index} className={c.pdp__ratingStar} />
+                            )}
+                            <p className={c.pdp__ratingsCount}>{productData?.sale} sailed</p>
+                            <p className={c.pdp__ratingsCount}>614 answered questions</p>
                         </div>
                         <div className={c.pdp__brandBox}>
                             <div>Amazons choice</div>
@@ -53,10 +69,11 @@ const PdpImagebar = ({ productImage, productData }) => {
                         <h3>Curently unavailable</h3>
                         <p className={c.pdp__cartDesc}>We don't know when or if this item will be back in stock.</p>
                         <p className={c.pdp__location}>
-                            <SlLocationPin className={c.pdp__locationIcon}/>
+                            <SlLocationPin className={c.pdp__locationIcon} />
                             <span>Deliver to Uzbekistan</span>
                         </p>
-                        <button className={c.pdp__cartBtn}>Add to list</button>
+                        <button className={c.pdp__cartBtn} onClick={sendProduct}>Add to list</button>
+                        {checkCart ? <Link className={c.pdp__checkCart} to="/cartbox">Check your cart box</Link> : <> </>}
                     </div>
                 </div>
             </div>

@@ -97,6 +97,9 @@
     font-size: 14px;
     margin-top: 5px;
 }
+.pdp__checkCart {
+    margin-top: 10px;
+}
 
 .pdp__cartBox>.pdp__location {
     width: 100%;

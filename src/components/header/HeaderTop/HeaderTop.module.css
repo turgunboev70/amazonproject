@@ -210,6 +210,9 @@
 .anonym__text{
     font-weight: 600;
 }
+.cart__boxLink {
+    color: #fff;
+}
 .cart {
     height: 50px;
     display: flex;

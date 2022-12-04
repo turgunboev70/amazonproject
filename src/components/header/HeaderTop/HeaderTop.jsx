@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import brandLogo from "../../../images/Amazon_logo.svg.png"
+import React, { useState, useEffect } from 'react'
+import brandLogo from "../../../images/amazon_logo.4f9ea4caf3df9de7ac27.webp"
 import { GrSearch } from "react-icons/gr"
 import { SlLocationPin } from "react-icons/sl"
 import { HiOutlineShoppingCart } from "react-icons/hi"
@@ -8,6 +8,7 @@ import c from "./HeaderTop.module.css"
 import { Overlay } from '../../../utils'
 import { useTranslation } from 'react-i18next'
 import { Link } from "react-router-dom"
+import { useSelector } from 'react-redux'
 
 const HeaderTop = () => {
     const [sectionValue, setSectionValue] = useState("all")
@@ -16,6 +17,7 @@ const HeaderTop = () => {
     const [languageFocus, setLanguageFocus] = useState(false)
     const { t } = useTranslation()
     const { i18n } = useTranslation()
+    const selector = useSelector(state => state)
 
     const changeWebsiteLang = ( ) => {
         i18n.changeLanguage(selectedLanguage)
@@ -26,6 +28,14 @@ const HeaderTop = () => {
 
         setInputFocus(false)
     }
+
+    useEffect(() => {
+        if (inputFocus) {
+            document.body.style.overflow = "hidden"
+        } else {
+            document.body.style.overflow = "auto"
+        }
+    }, [inputFocus])
 
 
     return (
@@ -112,13 +122,15 @@ const HeaderTop = () => {
                         {t("returns__label")}
                         <div className={c.anonym__text}> {t("order")}</div>
                     </div>
+                    <Link to="/cartbox" className={c.cart__boxLink}>
                     <div className={c.cart}>
                         <div className={c.cart__box}>
                             <HiOutlineShoppingCart className={c.cart__icon}></HiOutlineShoppingCart>
-                            <span className={c.cart__num}>0</span>
+                            <span className={c.cart__num}>{selector.cart.productBox.length}</span>
                         </div>
                         <p className={c.cart__text}>{t("cart")}</p>
                     </div>
+                    </Link>
                 </div>
             </div>
             {inputFocus && <Overlay type="navbar" state={inputFocus} callback={setInputFocus} />}
