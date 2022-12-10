@@ -169,6 +169,7 @@
 }
 .sign__in{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     width: 125px;
@@ -193,6 +194,36 @@
     color: #fff;
     border: none;
     font-weight: 600;
+}
+.signin__active {
+    position: absolute;
+    top: 100%;
+    left: -60%;
+    width: 400px;
+    background-color: #fff;
+    color: #000;
+    z-index: 10000;
+}
+.signin__box {
+    display: flex;
+    padding: 20px;
+}
+.signin__left {
+    border-right: 3px solid hsl(0, 9%, 91%);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.signin__heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.signin__listItem, .signin__accountItem {
+    padding: 4px 0;
+}
+.signin__listItem:first-child {
+    border-bottom: 1px solid #dcd8d8;
+    padding-bottom: 7px;
 }
 .anonym__box{
     width: 70px;

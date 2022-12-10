@@ -24,6 +24,13 @@ const cartReducer = (state = initialCart, action) => {
             return {
                 productBox : [...state.productBox, action.data]
             }
+        case "REMOVE_CART" : 
+            if (action.data) {
+                state.productBox.splice(state.productBox.indexOf(action.data), 1)
+            }
+            return {
+                productBox : [...state.productBox]
+            }
             default: 
             return state
         }

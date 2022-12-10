@@ -1,5 +1,5 @@
-import React, { useEffect, useState} from 'react'
-import { useSelector } from 'react-redux'
+import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from "react-router-dom"
 import c from "./Cart.module.css"
 import { MdStar } from "react-icons/md"
@@ -7,14 +7,7 @@ import { MdStar } from "react-icons/md"
 
 const Cart = () => {
     const selector = useSelector(state => state)
-    const [productIndex, setProductIndex] = useState()
-
-    console.log(productIndex);
-    console.log(selector.cart.productBox);
-    
-    // useEffect(() => {
-    //     selector?.cart?.productBox.splice(productIndex, 1)
-    // }, [selector.cart.productBox.length])
+    const dispatch = useDispatch()
     
     return (
         <div className='container'>
@@ -38,7 +31,10 @@ const Cart = () => {
                                                     )}
                                                 </div>
                                                 <button className={c.productCart__btn} onClick={() => {
-                                                        selector?.cart?.productBox.splice(index, 1)
+                                                    dispatch({
+                                                        type : "REMOVE_CART",
+                                                        data : product
+                                                    })
                                                 }}>Delete product</button>
                                             </div>
                                         </div>
